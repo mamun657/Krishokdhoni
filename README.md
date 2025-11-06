@@ -64,3 +64,6 @@ It integrates:
 ```bash
 git clone https://github.com/your-username/krishokdhoni.git
 cd krishokdhoni
+
+---
+<img width="366" height="476" alt="Image" src="https://github.com/user-attachments/assets/90072a76-a4bf-4a62-9a91-492980bf4048" />
