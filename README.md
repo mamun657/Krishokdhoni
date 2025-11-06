@@ -64,7 +64,7 @@ It integrates:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/90072a76-a4bf-4a62-9a91-492980bf4048" alt="KrishokDhoni Screenshot" width="366" height="476"/>
   </p>
-  <h3 align="center">📸 Screenshot / Demo</h3>
+
 <p align="center">
   <img width="367" height="420" alt="Image" src="https://github.com/user-attachments/assets/c444990c-2258-4cf3-a6c9-5d78e1203ad9" />
   <img width="357" height="275" alt="Image" src="https://github.com/user-attachments/assets/4893f8a9-0167-4b72-9cfd-309f6cdc2185" />
