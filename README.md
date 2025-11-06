@@ -72,10 +72,6 @@ It integrates:
   <img width="528" height="332" alt="image" src="https://github.com/user-attachments/assets/e32e64f8-047c-49fe-9bac-e59e97dd57a5" />
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/90072a76-a4bf-4a62-9a91-492980bf4048" alt="KrishokDhoni Screenshot" width="366" height="476"/>
-  </p>
-
-<p align="center">
 <img width="542" height="712" alt="image" src="https://github.com/user-attachments/assets/c630fbcc-0360-4cad-be8a-7f258ae1b6a0" />
 
 </p>
