@@ -67,8 +67,8 @@ It integrates:
 
 <p align="center">
   <img width="367" height="420" alt="Image" src="https://github.com/user-attachments/assets/c444990c-2258-4cf3-a6c9-5d78e1203ad9" />
-  <img width="357" height="275" alt="Image" src="https://github.com/user-attachments/assets/4893f8a9-0167-4b72-9cfd-309f6cdc2185" />
   <img width="340" height="395" alt="image" src="https://github.com/user-attachments/assets/ec5eebb5-0eca-489b-a40b-f8b85b5d9d65" />
+  <img width="357" height="275" alt="Image" src="https://github.com/user-attachments/assets/4893f8a9-0167-4b72-9cfd-309f6cdc2185" />
 
   <img width="261" height="706" alt="image" src="https://github.com/user-attachments/assets/342694c1-2635-4917-bb77-bf9489116985" />
   <img width="528" height="332" alt="image" src="https://github.com/user-attachments/assets/e32e64f8-047c-49fe-9bac-e59e97dd57a5" />
