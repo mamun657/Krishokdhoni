@@ -26,6 +26,18 @@ It integrates:
 
 ---
 
+
+## 📱 Project Overview
+
+- **Platform:** Flutter (Android)
+- **Programming Language:** Dart
+- **UI Language:** বাংলা (Bangla)
+- **Architecture:** Clean Architecture (Feature-based)
+- **Project Status:** In Development
+
+---
+
+
 ## 🌿 Design Highlights
 
 - **Branding:** Title in Bengali & English for local relevance  
