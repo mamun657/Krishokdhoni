@@ -51,12 +51,15 @@ It integrates:
 
 ## ⚙️ Tech Stack
 
-- **Frontend:** React (Vite + Tailwind CSS)  
+- **Frontend:** Flutter (Android & Web)
 - **Backend:** FastAPI (Python 3.10+)  
 - **Database:** SQLite (extensible to PostgreSQL)  
-- **AI/ML:** TensorFlow Lite, scikit-learn, gTTS, SpeechRecognition  
-- **APIs:** OpenWeatherMap, local JSON for market data  
-- **Offline Support:** LocalStorage caching  
+- **AI/ML:** PyTorch (ResNet-50 for disease detection), LLaMA 3 via Groq API (for conversational AI and reasoning) 
+- **APIs:** Weather API, Government Market Data API 
+- **Offline Support:** LocalStorage caching
+- **Automation:** Rule-based logic (n8n – future)
+
+
 
 ---
 
