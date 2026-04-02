@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Card = ({ title, children, className = '' }) => {
+const Card = ({ title, children, className = '', ...rest }) => {
     return (
-        <div className={`bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 ${className}`}>
+        <div className={`card-neo p-6 ${className}`} {...rest}>
             {title && (
-                <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
+                <h3 className="section-title text-xl font-semibold mb-4">
                     {title}
                 </h3>
             )}

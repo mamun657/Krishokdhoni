@@ -39,21 +39,21 @@ const DiseaseScan = () => {
 
     return (
         <div className="max-w-2xl mx-auto">
-            <h1 className="text-3xl font-bold text-center mb-8 text-primary-600">
+            <h1 className="section-title brand-title text-3xl md:text-4xl font-bold text-center mb-8">
                 Plant Disease Scanner
             </h1>
 
-            <Card>
+            <Card className="section-panel">
                 <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="space-y-2">
-                        <label className="block text-sm font-medium">
+                        <label className="block text-sm font-medium text-muted">
                             Upload plant image
                         </label>
                         <input
                             type="file"
                             accept="image/*"
                             onChange={handleFileSelect}
-                            className="w-full p-2 border rounded"
+                            className="input-brand"
                         />
                     </div>
 
@@ -68,7 +68,7 @@ const DiseaseScan = () => {
                     )}
 
                     {error && (
-                        <div className="text-red-500 text-sm mt-2">
+                        <div className="text-amber-300 text-sm mt-2">
                             {error}
                         </div>
                     )}
@@ -76,14 +76,14 @@ const DiseaseScan = () => {
                     <button
                         type="submit"
                         disabled={loading || !selectedFile}
-                        className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg hover:bg-primary-700 disabled:opacity-50"
+                        className="btn-brand w-full py-2.5 px-4"
                     >
                         {loading ? 'Analyzing...' : 'Scan for Diseases'}
                     </button>
                 </form>
 
                 {result && (
-                    <div className="mt-6 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                    <div className="mt-6 p-4 rounded-lg border border-emerald-200/20 bg-emerald-950/35 text-emerald-50">
                         <h3 className="font-semibold mb-2">Results:</h3>
                         <p>Disease: {result.disease}</p>
                         <p>Confidence: {(result.confidence * 100).toFixed(1)}%</p>

@@ -32,26 +32,27 @@ const Home = () => {
 
     return (
         <div>
-            <div className="text-center mb-12">
-                <h1 className="text-4xl font-bold text-primary-600 mb-4">
+            <div className="text-center mb-10 md:mb-12 fade-in-up">
+                <span className="highlight-chip mb-4">Smart Agriculture Dashboard</span>
+                <h1 className="section-title brand-title text-4xl md:text-5xl font-bold mb-4">
                     কৃষকবন্ধু — Your AI Farming Companion
                 </h1>
-                <p className="text-xl text-gray-600 dark:text-gray-300">
-                    Empowering farmers with artificial intelligence
+                <p className="section-subtitle text-lg md:text-xl max-w-2xl mx-auto">
+                    AI-powered tools for disease scan, crop planning, market intelligence, and voice guidance in one unified workspace.
                 </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
                 {features.map((feature, index) => (
-                    <Link key={index} to={feature.link}>
-                        <Card className="h-full hover:shadow-lg transition-shadow">
+                    <Link key={index} to={feature.link} className="block">
+                        <Card className="h-full hover:-translate-y-1 transition-transform duration-200 fade-in-up" style={{ animationDelay: `${index * 90}ms` }}>
                             <div className="flex items-start space-x-4">
                                 <span className="text-4xl">{feature.icon}</span>
                                 <div>
-                                    <h3 className="text-xl font-semibold mb-2 text-primary-600">
+                                    <h3 className="section-title text-xl font-semibold mb-2">
                                         {feature.title}
                                     </h3>
-                                    <p className="text-gray-600 dark:text-gray-300">
+                                    <p className="text-muted">
                                         {feature.description}
                                     </p>
                                 </div>

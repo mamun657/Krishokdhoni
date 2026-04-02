@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import Card from '../components/Card';
 import { getMarketPrice } from '../services/api';
 
@@ -34,16 +34,16 @@ const Market = () => {
 
     return (
         <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl font-bold text-center mb-8 text-primary-600">
+            <h1 className="section-title brand-title text-3xl md:text-4xl font-bold text-center mb-8">
                 Market Price Tracker
             </h1>
 
-            <Card>
+            <Card className="section-panel">
                 <div className="flex gap-4 mb-6">
                     <select
                         value={selectedCrop}
                         onChange={(e) => setSelectedCrop(e.target.value)}
-                        className="p-2 border rounded"
+                        className="select-brand"
                     >
                         {crops.map(crop => (
                             <option key={crop} value={crop}>
@@ -55,7 +55,7 @@ const Market = () => {
                     <select
                         value={selectedMarket}
                         onChange={(e) => setSelectedMarket(e.target.value)}
-                        className="p-2 border rounded"
+                        className="select-brand"
                     >
                         {markets.map(market => (
                             <option key={market} value={market}>
@@ -66,35 +66,45 @@ const Market = () => {
                 </div>
 
                 {error && (
-                    <div className="text-red-500 text-sm mb-4">
+                    <div className="text-amber-300 text-sm mb-4">
                         {error}
                     </div>
                 )}
 
                 {loading ? (
-                    <div className="text-center py-8">Loading...</div>
+                    <div className="text-center py-8 text-muted">Loading...</div>
                 ) : data && (
                     <div className="overflow-x-auto">
-                        <LineChart
-                            width={800}
-                            height={400}
-                            data={combinedData}
-                            margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-                        >
-                            <CartesianGrid strokeDasharray="3 3" />
-                            <XAxis dataKey="date" />
-                            <YAxis />
-                            <Tooltip />
-                            <Legend />
-                            <Line
-                                type="monotone"
-                                dataKey="price"
-                                stroke="#16a34a"
-                                activeDot={{ r: 8 }}
-                            />
-                        </LineChart>
+                        <div className="h-[360px] rounded-xl border border-emerald-100/20 bg-emerald-950/30 p-2">
+                            <ResponsiveContainer width="100%" height="100%">
+                                <LineChart
+                                    data={combinedData}
+                                    margin={{ top: 10, right: 20, left: 0, bottom: 10 }}
+                                >
+                                    <CartesianGrid strokeDasharray="3 3" stroke="rgba(220,255,236,0.18)" />
+                                    <XAxis dataKey="date" stroke="#b6e9d2" />
+                                    <YAxis stroke="#b6e9d2" />
+                                    <Tooltip
+                                        contentStyle={{
+                                            backgroundColor: 'rgba(6, 38, 27, 0.95)',
+                                            border: '1px solid rgba(174, 255, 222, 0.24)',
+                                            borderRadius: '10px',
+                                            color: '#eefff7'
+                                        }}
+                                    />
+                                    <Legend />
+                                    <Line
+                                        type="monotone"
+                                        dataKey="price"
+                                        stroke="#5bea98"
+                                        strokeWidth={3}
+                                        activeDot={{ r: 6 }}
+                                    />
+                                </LineChart>
+                            </ResponsiveContainer>
+                        </div>
 
-                        <div className="mt-4 text-sm text-gray-600 dark:text-gray-300">
+                        <div className="mt-4 text-sm text-muted">
                             <p>* Historical data shown in solid line</p>
                             <p>* Forecast data shown after current date</p>
                         </div>

@@ -49,36 +49,36 @@ const VoiceAssistant = () => {
 
     return (
         <div className="max-w-2xl mx-auto">
-            <h1 className="text-3xl font-bold text-center mb-8 text-primary-600">
+            <h1 className="section-title brand-title text-3xl md:text-4xl font-bold text-center mb-8">
                 Voice Assistant
             </h1>
 
-            <Card>
+            <Card className="section-panel">
                 <div className="text-center space-y-6">
                     <button
                         onClick={recording ? stopRecording : startRecording}
-                        className={`w-24 h-24 rounded-full flex items-center justify-center text-4xl ${
+                        className={`w-24 h-24 rounded-full flex items-center justify-center text-4xl border border-white/20 shadow-lg transition-transform ${
                             recording 
-                                ? 'bg-red-500 hover:bg-red-600' 
-                                : 'bg-primary-600 hover:bg-primary-700'
-                        } text-white transition-colors`}
+                                ? 'bg-red-500 hover:bg-red-600 animate-pulse' 
+                                : 'bg-emerald-500 hover:bg-emerald-600 hover:-translate-y-1'
+                        } text-white`}
                     >
                         {recording ? '⏹️' : '🎤'}
                     </button>
 
-                    <p className="text-lg">
+                    <p className="text-lg text-muted">
                         {recording ? 'Recording... Click to stop' : 'Click to start recording'}
                     </p>
 
                     {error && (
-                        <div className="text-red-500 text-sm">
+                        <div className="text-amber-300 text-sm">
                             {error}
                         </div>
                     )}
 
                     {response && (
                         <div className="mt-8 space-y-4">
-                            <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                            <div className="p-4 rounded-lg border border-emerald-100/20 bg-emerald-950/35">
                                 <p className="text-lg mb-2">{response.text}</p>
                             </div>
                             

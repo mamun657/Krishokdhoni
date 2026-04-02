@@ -36,14 +36,14 @@ const CropRecommend = () => {
 
     return (
         <div className="max-w-2xl mx-auto">
-            <h1 className="text-3xl font-bold text-center mb-8 text-primary-600">
+            <h1 className="section-title brand-title text-3xl md:text-4xl font-bold text-center mb-8">
                 Crop Recommendation
             </h1>
 
-            <Card>
+            <Card className="section-panel">
                 <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
-                        <label className="block text-sm font-medium mb-1">
+                        <label className="block text-sm font-medium mb-1 text-muted">
                             Soil pH (0-14)
                         </label>
                         <input
@@ -54,13 +54,13 @@ const CropRecommend = () => {
                             name="ph"
                             value={formData.ph}
                             onChange={handleChange}
-                            className="w-full"
+                            className="range-brand"
                         />
-                        <div className="text-center">{formData.ph}</div>
+                        <div className="text-center text-emerald-100">{formData.ph}</div>
                     </div>
 
                     <div>
-                        <label className="block text-sm font-medium mb-1">
+                        <label className="block text-sm font-medium mb-1 text-muted">
                             Soil Moisture (%)
                         </label>
                         <input
@@ -70,13 +70,13 @@ const CropRecommend = () => {
                             name="moisture"
                             value={formData.moisture}
                             onChange={handleChange}
-                            className="w-full"
+                            className="range-brand"
                         />
-                        <div className="text-center">{formData.moisture}%</div>
+                        <div className="text-center text-emerald-100">{formData.moisture}%</div>
                     </div>
 
                     <div>
-                        <label className="block text-sm font-medium mb-1">
+                        <label className="block text-sm font-medium mb-1 text-muted">
                             Temperature (°C)
                         </label>
                         <input
@@ -86,13 +86,13 @@ const CropRecommend = () => {
                             name="temp"
                             value={formData.temp}
                             onChange={handleChange}
-                            className="w-full"
+                            className="range-brand"
                         />
-                        <div className="text-center">{formData.temp}°C</div>
+                        <div className="text-center text-emerald-100">{formData.temp}°C</div>
                     </div>
 
                     {error && (
-                        <div className="text-red-500 text-sm">
+                        <div className="text-amber-300 text-sm">
                             {error}
                         </div>
                     )}
@@ -100,20 +100,20 @@ const CropRecommend = () => {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg hover:bg-primary-700 disabled:opacity-50"
+                        className="btn-brand w-full py-2.5 px-4"
                     >
                         {loading ? 'Getting Recommendations...' : 'Get Recommendations'}
                     </button>
                 </form>
 
                 {result && (
-                    <div className="mt-6 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                    <div className="mt-6 p-4 rounded-lg border border-emerald-200/20 bg-emerald-950/35">
                         <h3 className="font-semibold mb-3">Recommended Crops:</h3>
                         <div className="space-y-2">
                             {result.recommended.map((crop, index) => (
                                 <div key={crop} className="flex justify-between items-center">
                                     <span>{crop}</span>
-                                    <span className="text-sm text-gray-600 dark:text-gray-300">
+                                    <span className="text-sm text-muted">
                                         {(result.probabilities[crop] * 100).toFixed(1)}% match
                                     </span>
                                 </div>

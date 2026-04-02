@@ -9,9 +9,9 @@ import VoiceAssistant from './pages/VoiceAssistant'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="app-shell min-h-screen">
       <Header />
-      <main className="container mx-auto px-4 py-8">
+      <main className="relative z-10 container mx-auto px-4 py-10 md:py-14">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/disease-scan" element={<DiseaseScan />} />
