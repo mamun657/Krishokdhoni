@@ -179,16 +179,9 @@ It provides:
 
 ---
 
-## 👨‍💻 Team
-
-* **Your Name / Team Name**
-
----
-
 ## 📌 Conclusion
 
 KrishokDhoni aims to bridge the gap between **technology and agriculture** by empowering farmers with AI-driven insights, ultimately contributing to **food security and economic growth in Bangladesh**.
 
 ---
 
-⭐ If you like this project, give it a star!
