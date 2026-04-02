@@ -79,44 +79,51 @@ It integrates:
 
 ### 🌾 Welcome Screen
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/90072a76-a4bf-4a62-9a91-492980bf4048" width="300"/>
+ <img width="463" height="978" alt="image" src="https://github.com/user-attachments/assets/f994b7ca-2c1b-4609-a6f3-e5c6ca43491e" />
+
 </p>
 
 ---
 
 ### 🏠 Home Dashboard & Features
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c444990c-2258-4cf3-a6c9-5d78e1203ad9" width="260"/>
-  <img src="https://github.com/user-attachments/assets/ec5eebb5-0eca-489b-a40b-f8b85b5d9d65" width="260"/>
-  <img src="https://github.com/user-attachments/assets/4893f8a9-0167-4b72-9cfd-309f6cdc2185" width="260"/>
+ <img width="441" height="900" alt="image" src="https://github.com/user-attachments/assets/dc879a5a-2bdf-4714-935f-2f68517d90bc" />
+
+<img width="452" height="979" alt="image" src="https://github.com/user-attachments/assets/9d02945d-eec9-4283-bcbe-16d603426dbd" />
+
 </p>
 
 ---
 
 ### 🌱 Smart Crop Recommendation
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/342694c1-2635-4917-bb77-bf9489116985" width="280"/>
-  <img src="https://github.com/user-attachments/assets/c630fbcc-0360-4cad-be8a-7f258ae1b6a0" width="280"/>
+  <img width="468" height="969" alt="image" src="https://github.com/user-attachments/assets/7ff486ad-fc49-4afa-9b6a-7332b28e6157" />
+
+<img width="481" height="982" alt="image" src="https://github.com/user-attachments/assets/295ccbbd-117d-4c08-ac2b-03547f9f5ae3" />
+
 </p>
 
 ---
 
 ### 🌦 Weather Insights
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e32e64f8-047c-49fe-9bac-e59e97dd57a5" width="300"/>
+ <img width="459" height="985" alt="image" src="https://github.com/user-attachments/assets/47fc1fb9-12ea-4044-aced-56394e4c8a58" />
+
 </p>
 
 ---
 
 ### 💹 Market Price Prediction
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/342694c1-2635-4917-bb77-bf9489116985" width="300"/>
+<img width="463" height="989" alt="image" src="https://github.com/user-attachments/assets/d9cc7c1d-e040-45ad-916a-8faff34de5f1" />
+
 </p>
 
 ---
 
 ### 🤖 AI Assistant (Bangla + English)
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dd999d98-0ea8-4ef4-870a-5809475c1054.png" width="280"/>
-  <img src="https://github.com/user-attachments/assets/52f632c6-c5c5-4e25-aa7e-a25bff94d096.png" width="280"/>
+  <img width="463" height="986" alt="image" src="https://github.com/user-attachments/assets/0f4b553b-823a-42fc-9cdf-c7f768c3703f" />
+<img width="480" height="1025" alt="image" src="https://github.com/user-attachments/assets/8a9106a1-a675-43e9-ad12-7048d60ea696" />
+
 </p>
