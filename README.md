@@ -1,130 +1,194 @@
 <!-- Project Header -->
+
 <h1 align="center">কৃষকধনী – KrishokDhoni</h1>
 <h2 align="center">🌾 Your AI Farming Companion</h2>
 
 ---
 
-<!-- Animated subtitle -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFCC&center=true&vCenter=true&width=700&lines=🤖+AI+Powered+Farming;📸+Crop+Disease+Detection;💹+Market+Price+Prediction;🎙+Bangla+Voice+Assistant" alt="Typing SVG" />
 </p>
 
 ---
 
-## About KrishokDhoni
+## 🚨 Problem Statement
 
-**KrishokDhoni** is a **full-stack AI & IoT-powered application** designed to help Bangladeshi farmers **make smarter, data-driven farming decisions**.  
-It integrates:
+Bangladesh has over **16 million smallholder farmers** who face major challenges:
 
-- **Crop Disease Detection** using AI & TensorFlow Lite  
-- **Crop Recommendation** based on soil & weather data  
-- **Market Price Prediction** with historical data & regression  
-- **Weather Forecast Updates** (live via API)  
-- **Bangla + English Voice Interaction** for easy guidance  
+* Lack of early crop disease detection
+* Limited access to agricultural knowledge
+* Unpredictable weather conditions
+* Unfair and unclear market pricing
 
-💡 **Offline Capable** – Core functionalities work without internet, ensuring usability in rural areas.
+These issues lead to **low productivity, crop loss, and financial instability**.
 
 ---
 
+## 💡 Solution Overview
+
+**KrishokDhoni** is an **AI-powered smart farming platform** that helps farmers make **data-driven decisions** through an easy-to-use mobile app.
+
+It provides:
+
+* 📸 AI-based crop disease detection
+* 🌱 Smart crop recommendations
+* 💹 Market price insights
+* 🌦 Weather updates
+* 🎙 Bangla voice assistance
+
+💡 Designed for **rural usability**, with offline support and simple UI.
+
+---
+
+## 🌍 SDG Alignment
+
+### 🌾 Primary Goal:
+
+**SDG 02 – Zero Hunger**
+
+* Improves agricultural productivity
+* Reduces crop loss
+* Supports farmer income growth
+
+### 🌍 Supporting Goals:
+
+* 📈 SDG 08 – Decent Work & Economic Growth
+* 🤖 SDG 09 – Industry, Innovation & Infrastructure
+* 🌦 SDG 13 – Climate Action
+
+---
+
+## ⚙️ How It Works
+
+1. Farmer inputs crop data / image
+2. AI analyzes disease, soil & weather
+3. System generates recommendations
+4. Farmer receives guidance in Bangla (text + voice)
+
+---
+
+## 🧠 Key Features
+
+* 📸 **Crop Disease Detection**
+  Detect plant diseases using AI image classification
+
+* 🌱 **Smart Crop Recommendation**
+  Suggest best crops based on soil & environment
+
+* 💹 **Market Price Prediction**
+  Analyze trends for better selling decisions
+
+* 🌦 **Weather Forecasting**
+  Real-time weather updates for planning
+
+* 🎙 **AI Voice Assistant**
+  Ask questions in Bangla or English
+
+---
 
 ## 📱 Project Overview
 
-- **Platform:** Flutter (Android)
-- **Programming Language:** Dart
-- **UI Language:** বাংলা (Bangla)
-- **Architecture:** Clean Architecture (Feature-based)
-- **Project Status:** In Development
-
----
-
-
-## 🌿 Design Highlights
-
-- **Branding:** Title in Bengali & English for local relevance  
-- **Theme:** Deep green & earthy tones to reflect **agriculture & growth**  
-- **Simplicity:** Mobile-friendly, clean interface with **icon-based navigation**  
-- **Core Navigation:** Weather, Crop Detection, Market Prices  
-- **Visual Feedback:** Color-coded alerts (green = healthy, red = warning)  
-- **Accessibility:** Works on low-end devices, easy for farmers with minimal digital literacy  
+* **Platform:** Flutter (Android)
+* **Language:** Dart
+* **UI Language:** বাংলা (Bangla)
+* **Architecture:** Clean Architecture
+* **Status:** In Development
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **Frontend:** Flutter (Android & Web)
-- **Backend:** FastAPI (Python 3.10+)  
-- **Database:** SQLite (extensible to PostgreSQL)  
-- **AI/ML:** PyTorch (ResNet-50 for disease detection), LLaMA 3 via Groq API (for conversational AI and reasoning) 
-- **APIs:** Weather API, Government Market Data API 
-- **Offline Support:** LocalStorage caching
-- **Automation:** Rule-based logic (n8n – future)
-
-
+* **Frontend:** Flutter
+* **Backend:** FastAPI (Python)
+* **Database:** SQLite
+* **AI/ML:** PyTorch (ResNet-50), LLM (LLaMA 3 via Groq API)
+* **APIs:** Weather API, Market Data API
+* **Offline Support:** Local caching
 
 ---
 
-## 📸 Key Features
+## 🌿 Design Highlights
 
-- **Weather Dashboard:** Real-time weather + 3-day forecast  
-- **Crop Disease Detection:** Upload image → AI identifies disease + solution  
-- **Crop Recommendation:** Input soil & temp → AI suggests best crops  
-- **Market Price Prediction:** 7-day price trends + profit insights  
-- **Voice Assistant:** Ask questions in Bangla/English → receive text + audio  
+* 🌱 Farmer-friendly Bangla UI
+* 🎨 Green agriculture-focused theme
+* 📱 Simple and accessible interface
+* ⚡ Works on low-end devices
+* 🔊 Voice-enabled interaction
 
 ---
-
-
 
 ## 📱 App Preview
 
 ### 🌾 Welcome Screen
-<p align="center">
- <img width="463" height="978" alt="image" src="https://github.com/user-attachments/assets/f994b7ca-2c1b-4609-a6f3-e5c6ca43491e" />
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f994b7ca-2c1b-4609-a6f3-e5c6ca43491e" width="300"/>
 </p>
 
 ---
 
-### 🏠 Home Dashboard & Features
+### 🏠 Home Dashboard
+
 <p align="center">
- <img width="441" height="900" alt="image" src="https://github.com/user-attachments/assets/dc879a5a-2bdf-4714-935f-2f68517d90bc" />
-
-<img width="452" height="979" alt="image" src="https://github.com/user-attachments/assets/9d02945d-eec9-4283-bcbe-16d603426dbd" />
-
+<img src="https://github.com/user-attachments/assets/dc879a5a-2bdf-4714-935f-2f68517d90bc" width="250"/>
+<img src="https://github.com/user-attachments/assets/9d02945d-eec9-4283-bcbe-16d603426dbd" width="250"/>
 </p>
 
 ---
 
-### 🌱 Smart Crop Recommendation
+### 🌱 Crop Recommendation
+
 <p align="center">
-  <img width="468" height="969" alt="image" src="https://github.com/user-attachments/assets/7ff486ad-fc49-4afa-9b6a-7332b28e6157" />
-
-<img width="481" height="982" alt="image" src="https://github.com/user-attachments/assets/295ccbbd-117d-4c08-ac2b-03547f9f5ae3" />
-
+<img src="https://github.com/user-attachments/assets/7ff486ad-fc49-4afa-9b6a-7332b28e6157" width="250"/>
+<img src="https://github.com/user-attachments/assets/295ccbbd-117d-4c08-ac2b-03547f9f5ae3" width="250"/>
 </p>
 
 ---
 
-### 🌦 Weather Insights
-<p align="center">
- <img width="459" height="985" alt="image" src="https://github.com/user-attachments/assets/47fc1fb9-12ea-4044-aced-56394e4c8a58" />
+### 🌦 Weather Module
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/47fc1fb9-12ea-4044-aced-56394e4c8a58" width="300"/>
 </p>
 
 ---
 
-### 💹 Market Price Prediction
-<p align="center">
-<img width="463" height="989" alt="image" src="https://github.com/user-attachments/assets/d9cc7c1d-e040-45ad-916a-8faff34de5f1" />
+### 💹 Market Insights
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d9cc7c1d-e040-45ad-916a-8faff34de5f1" width="300"/>
 </p>
 
 ---
 
-### 🤖 AI Assistant (Bangla + English)
-<p align="center">
-  <img width="463" height="986" alt="image" src="https://github.com/user-attachments/assets/0f4b553b-823a-42fc-9cdf-c7f768c3703f" />
-  
- <img width="480" height="1025" alt="image" src="https://github.com/user-attachments/assets/8a9106a1-a675-43e9-ad12-7048d60ea696" />
+### 🤖 AI Assistant
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0f4b553b-823a-42fc-9cdf-c7f768c3703f" width="250"/>
+<img src="https://github.com/user-attachments/assets/8a9106a1-a675-43e9-ad12-7048d60ea696" width="250"/>
 </p>
+
+---
+
+## 🚀 Future Improvements
+
+* 📡 Real-time farmer community insights
+* 📊 Advanced yield prediction models
+* 🌍 Multi-language support
+* 📈 Better market analytics
+
+---
+
+## 👨‍💻 Team
+
+* **Your Name / Team Name**
+
+---
+
+## 📌 Conclusion
+
+KrishokDhoni aims to bridge the gap between **technology and agriculture** by empowering farmers with AI-driven insights, ultimately contributing to **food security and economic growth in Bangladesh**.
+
+---
+
+⭐ If you like this project, give it a star!
