@@ -124,6 +124,7 @@ It integrates:
 ### 🤖 AI Assistant (Bangla + English)
 <p align="center">
   <img width="463" height="986" alt="image" src="https://github.com/user-attachments/assets/0f4b553b-823a-42fc-9cdf-c7f768c3703f" />
-<img width="480" height="1025" alt="image" src="https://github.com/user-attachments/assets/8a9106a1-a675-43e9-ad12-7048d60ea696" />
+  
+ <img width="480" height="1025" alt="image" src="https://github.com/user-attachments/assets/8a9106a1-a675-43e9-ad12-7048d60ea696" />
 
 </p>
