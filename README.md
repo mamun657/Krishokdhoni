@@ -10,6 +10,14 @@
 </p>
 
 ---
+## 📥 Download App
+
+<a href="https://github.com/mamun657/Krishokdhoni/releases/download/v1.0.0/Krishokdhoni.apk">
+  <img src="https://img.shields.io/badge/Download%20APK-KrishokDhoni-green?style=for-the-badge&logo=android" alt="Download KrishokDhoni APK">
+</a>
+
+**Latest Android APK:** [Download KrishokDhoni](https://github.com/mamun657/Krishokdhoni/releases/download/v1.0.0/Krishokdhoni.apk)
+---
 
 ## 🚨 Problem Statement
 
