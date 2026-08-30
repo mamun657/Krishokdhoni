@@ -1,1 +1,10 @@
-
+"contributions": [
+  {
+    "member": "Member 1",
+    "work": "Frontend and UI implementation"
+  },
+  {
+    "member": "Member 2",
+    "work": "Backend and API integration"
+  }
+]
